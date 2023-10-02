@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Logout button</name>
+   <tag></tag>
+   <elementGuidId>e24e1968-accc-496d-8108-69d919d6def6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'menuitem' and @class = 'oxd-userdropdown-link' and @href = '/web/index.php/auth/logout']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>08aa9695-5e32-4123-81dd-917b3a3ed605</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-userdropdown-link</value>
+      <webElementGuid>2c3f9763-a80e-4ab7-baee-4ea6d20826d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/web/index.php/auth/logout</value>
+      <webElementGuid>d5dddd5e-5f0b-4ad2-bb0b-c4ee43f5f0da</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

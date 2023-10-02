@@ -20,15 +20,17 @@ import org.openqa.selenium.Keys as Keys
 // Open Browser
 WebUI.openBrowser(GlobalVariable.Url)
 
+// Input Correct Username
+WebUI.setText(findTestObject('Object Repository/Login/Username'), 'Admin')
 
-// Input correct Username
-WebUI.setText(findTestObject('Object Repository/Login/Username'), GlobalVariable.Username)
-
-// Input correct Password
-WebUI.setText(findTestObject('Object Repository/Login/Password'), GlobalVariable.Password)
+// Input Incorrect Password
+WebUI.setText(findTestObject('Object Repository/Login/Password'), 'qwerty')
 
 // Click Login Button
 WebUI.click(findTestObject('Object Repository/Login/Login Button'))
+
+// Verify Error Message
+WebUI.verifyTextPresent('Invalid credentials', false)
 
 // Close Browser
 WebUI.closeBrowser()

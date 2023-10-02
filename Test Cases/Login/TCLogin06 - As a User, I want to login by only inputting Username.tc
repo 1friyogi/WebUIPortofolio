@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCLogin06 - As a User, I want to login by only inputting Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>751547b2-cd53-4f39-94c0-ac5ca14a6f79</testCaseGuid>
+</TestCaseEntity>
