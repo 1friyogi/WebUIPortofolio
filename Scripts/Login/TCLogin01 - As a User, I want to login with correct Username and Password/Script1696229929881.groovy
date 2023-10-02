@@ -20,7 +20,6 @@ import org.openqa.selenium.Keys as Keys
 // Open Browser
 WebUI.openBrowser(GlobalVariable.Url)
 
-
 //delay
 WebUI.delay(3)
 
@@ -32,6 +31,9 @@ WebUI.setText(findTestObject('Object Repository/Login/Password'), GlobalVariable
 
 // Click Login Button
 WebUI.click(findTestObject('Object Repository/Login/Login Button'))
+
+//delay
+WebUI.delay(3)
 
 // Close Browser
 WebUI.closeBrowser()

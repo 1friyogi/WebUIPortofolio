@@ -20,6 +20,9 @@ import org.openqa.selenium.Keys as Keys
 // Open Browser
 WebUI.openBrowser(GlobalVariable.Url)
 
+//delay
+WebUI.delay(3)
+
 // Input Blank Username
 WebUI.setText(findTestObject('Object Repository/Login/Username'), '')
 
@@ -31,6 +34,9 @@ WebUI.click(findTestObject('Object Repository/Login/Login Button'))
 
 // Verify Error Message
 WebUI.verifyTextPresent('Required', false)
+
+//delay
+WebUI.delay(3)
 
 // Close Browser
 WebUI.closeBrowser()
